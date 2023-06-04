@@ -1,0 +1,39 @@
+
+#add {
+    color: black;
+    text-decoration: none;
+    
+}
+
+body, html {
+    height: 100%;
+    font-family: "Jost", sans-serif;
+  }
+
+.bg-image {
+    background-image: url('https://pbs.twimg.com/media/B1kCOPWCUAAWix6.jpg');
+    height: 50%;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+#navbar {
+    margin-top: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#navbar li.nav-link{
+    opacity: 100%;
+}
+
+.nav-link:hover{
+    color:#47b2e4
+}
