@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="https://www.smkn4bogor.sch.id/assets/images/logo/logoSMKN4.svg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -80,31 +80,25 @@
     <section id="clients" class="clients section-bg">
       <div class="container">
 
-        <div class="row" data-aos="zoom-in">
+        <div class="row d-flex justify-content-center" data-aos="zoom-in">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="https://www.smkn4bogor.sch.id/assets/images/logo/pplg.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="https://www.smkn4bogor.sch.id/assets/images/logo/tjkt.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="https://www.smkn4bogor.sch.id/assets/images/logo/tkr.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="https://www.smkn4bogor.sch.id/assets/images/logo/tflm.jpeg" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
+         
 
         </div>
 
@@ -121,11 +115,11 @@
 
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>About Us</h3>
+            <p>Merupakan sekolah kejuruan berbasis Teknologi Informasi dan Komunikasi. Sekolah ini didirikan dan dirintis pada tahun 2008 kemudian dibuka pada tahun 2009 yang saat ini terakreditasi A. Terletak di Jalan Raya Tajur Kp. Buntar, Muarasari, Bogor, sekolah ini berdiri di atas lahan seluas 12.724 m2 dengan berbagai fasilitas pendukung di dalamnya. Terdapat 54 staff pengajar dan 22 orang staff tata usaha, dikepalai oleh Drs. Mulya Mulprihartono, M. Si, sekolah ini merupakan investasi pendidikan yang tepat untuk putra/putri anda.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="https://www.smkn4bogor.sch.id/">Click Here</a>
           </div>
         </div>
 
@@ -142,12 +136,11 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="col-lg-6 d-flex align-items-stretch">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -170,6 +163,18 @@
               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.187990492366!2d106.8250633!3d-6.6410863!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c8b16ee07ef5%3A0x14ab253dd267de49!2sSMK%20Negeri%204%20Bogor%20(Nebrazka)!5e0!3m2!1sid!2sid!4v1683016576212!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
+           
+          </div>
+          <div class="col-lg-6 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <div class="social-links mt-3">
+              <a target="_blank" href="https://www.youtube.com/channel/UC4M-6Oc1ZvECz00MlMa4v_A/videos?app=desktop" class="youtube"><i style="height:500px"  class="bx bxl-youtube bx-lg"></i></a>
+              <a target="_blank" href="https://web.facebook.com/profile.php?id=100054636630766" class="facebook"><i class="bx bxl-facebook bx-lg"></i></a>
+              <a target="_blank" href="https://www.instagram.com/smkn4kotabogor/" class="instagram"><i class="bx bxl-instagram bx-lg"></i></a>
+              <a target="_blank" href="mailto:smkn4@smkn4bogor.sch.id" class="gmail"><i class="bx bxl-gmail bx-lg"></i></a> 
+              <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282260168886" class="whatsapp"><i class="bx bxl-whatsapp bx-lg "></i></a>
+            </div>
+              </div>
           </div>
 
           
@@ -193,17 +198,7 @@
 
          
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
+         
 
         </div>
       </div>
@@ -211,14 +206,10 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Mikail</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+       
       </div>
     </div>
   </footer><!-- End Footer -->

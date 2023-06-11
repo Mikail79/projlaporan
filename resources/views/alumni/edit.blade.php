@@ -65,6 +65,7 @@
                             <option {{ $alumnus->graduate == '2020' ? 'selected' : '' }} value="2020">2020</option>
                             <option {{ $alumnus->graduate == '2021' ? 'selected' : '' }} value="2021">2021</option>
                             <option {{ $alumnus->graduate == '2022' ? 'selected' : '' }} value="2022">2022</option>
+                            <option {{ $alumnus->graduate == '2023' ? 'selected' : '' }} value="2023">2023</option>
                         </select>
                     </div>
                 </div>
@@ -83,8 +84,8 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Position:</strong>
-                        <input type="text" name="position" class="form-control" placeholder="Position"
+                        <strong>Achievement:</strong>
+                        <input type="text" name="position" class="form-control" placeholder="Achievement"
                             value="{{ $alumnus->position }}">
                     </div>
                 </div>

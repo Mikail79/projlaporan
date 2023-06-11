@@ -2,18 +2,20 @@
 
 @section('container')
 
-    <div style="height: 500px">
-        <div class="row mt-4">
-            <div class="col-6 text-start">
+    <div style="">
+        <div class="row mt-4 blue-gradient color-block z-depth-1">
+            <div class="col-6 text-start text-white">
                 <h1>Data Alumni</h1>
             </div>
             @can('is_admin')
-                <div class="col-6 text-end">
+                <div class="col-6 text-end ">
                     <h3>
-                        <a href="{{ route('alumni.create') }}" id="add">+ Add data</a>
+                        <a class=" hover" href="{{ route('alumni.create') }}" id="add">+ Add data</a>
                     </h3>
-                </div>
-            @endcan
+                                   
+                    </div>
+            @endcan 
+            
 
         </div>
         @if ($message = Session::get('success'))
@@ -37,7 +39,12 @@
                 </form>
             </div>
             <div class="col-6">
+                    
                 <form action="{{ route('alumni.index') }}" method="GET">
+                    <a href="/alumni" class="hover btn float-end">
+                        <i
+                        class="bi bi-arrow-clockwise  fa-lg "></i>  
+                    </a> 
                     @if (request('major_id'))
                         <input type="hidden" name="major_id" value="{{ request('major_id') }}">
                     @endif
@@ -50,15 +57,15 @@
                 </form>
             </div>
         </div>
-        <div class="card my-4 shadow">
-            <table class="table text-center align-center mb-4">
-                <thead class="table table-dark">
+        <div class="card my-4 shadow ">
+            <table class="table text-center align-center mb-4 bg-white rounded-4">
+                <thead class="table table-dark table-rounded">
                     <th>Image</th>
                     <th>Name</th>
                     <th>Graduation year</th>
-                    <th>Major</th>
+                    <th>Major</th> 
                     <th>Status</th>
-                    <th>Position</th>
+                    <th>Achievement</th>
                     @can('is_admin')
                         <th width="280px">Action</th>
                     @endcan
@@ -97,4 +104,6 @@
             {{ $alumnis->links() }}
         </div>
     </div>
+
+
 @endsection

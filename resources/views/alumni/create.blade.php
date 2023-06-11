@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="float-start">
-                <h2>Create</h2>
+                <h2 class="text-white">Create</h2>
             </div>
             <div class="float-end">
                 <a class="btn btn-primary" href="{{ route('alumni.index') }}"><i class="bi bi-arrow-left"></i> Back</a>
@@ -53,8 +53,9 @@
                             <option value="2018">2018</option>
                             <option value="2019">2019</option>
                             <option value="2020">2020</option>
-                            <option value="2020">2021</option>
-                            <option value="2020">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
                         </select>
                     </div>
                 </div>
@@ -81,8 +82,8 @@
                 @enderror
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Position:</strong>
-                        <input type="text" name="position" class="form-control" placeholder="Position">
+                        <strong>Achievement:</strong>
+                        <input type="text" name="position" class="form-control" placeholder="Achievement">
                     </div>
                 </div>
                 @error('position')

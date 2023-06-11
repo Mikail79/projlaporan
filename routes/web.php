@@ -22,14 +22,14 @@ Route::resource('alumni', AlumniController::class)->middleware('auth');
 Route::get('/create', function () {
     return view('alumni.create');
 });
-Route::get('/home', function () {
-    return view('home');
-});
 
+Route::get('/', function () {
+    return view('home');
+})->middleware('auth');
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authanticate']);
-// Route::post('/logout', [LoginController::class, 'logout']);
+
 Route::get('/logout', [LoginController::class, 'logout']);
 
 Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
