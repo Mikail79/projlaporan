@@ -1,10 +1,10 @@
-@extends('layouts.layout')
+@extends('layouts.layout2')
 
 @section('container')
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="float-start">
-                <h2>Edit</h2>
+                <h2 class="text-white">Edit</h2>
             </div>
             <div class="float-end">
                 <a class="btn btn-primary" href="{{ route('alumni.index') }}"><i class="bi bi-arrow-left"></i> Back</a>
